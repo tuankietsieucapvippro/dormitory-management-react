@@ -19,18 +19,33 @@ database
 
 
 The program includes role-based access control, and each user is only allowed to access authorized information.
-* *QLKTXdb.sql*: is a code to create a database written in SQL.
-* *QLKTX.sln*: is a main program to run the project.
-* The Views folder contains the student interface.
-* The Areas/Admin contains the manager interface.
+* *database.sql*: is a code to create a database written in SQL. 
+* *.env*: configure the environment to be able to run the project
+* The front-end folder contains the admin interface.
+* The back-end folder manage data about data and API
 
 ### 4 Usage
 
-* Dowload the project and open it with Visual Studio.
-* Set up the database through SQL Server.
-* Modify the data source according to your machine name in the Web.config file.
-* Run the Index.cshtml in the Views/Home to experience the student interface.
-* Run the Index.cshtml in the Areas/Admin/Views/Login to experience the manager interface.
+* Dowload the project and open it with Visual Studio Code.
+* Install yarn into project
+  ![image](https://github.com/user-attachments/assets/dc340e05-b707-4eb2-b452-3fdc6056a4e0)
+* Set up the database through PostgreSQL.
+* Create and setup .env file in front-end and back-end
+  Front-end
+    VITE_API_URL=http://localhost:3000
+  
+  Back-end
+    # Server
+    PORT=3000
+    # Database
+    DB_HOST=localhost
+    DB_PORT=5432
+    DB_USERNAME=postgres
+    DB_PASSWORD=1234
+    DB_DATABASE=dormitory_data 
+* Run the front-end with yarn
+* Run the back-end with yarn
+* Check UI with http://localhost:5173/
 
 student interface
 
