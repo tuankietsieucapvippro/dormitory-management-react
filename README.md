@@ -31,39 +31,30 @@ The program includes role-based access control, and each user is only allowed to
   ![image](https://github.com/user-attachments/assets/dc340e05-b707-4eb2-b452-3fdc6056a4e0)
 * Set up the database through PostgreSQL.
 * Create and setup .env file in front-end and back-end
-  Front-end
-    VITE_API_URL=http://localhost:3000
-  
-  Back-end
-    # Server
-    PORT=3000
-    # Database
-    DB_HOST=localhost
-    DB_PORT=5432
-    DB_USERNAME=postgres
-    DB_PASSWORD=1234
-    DB_DATABASE=dormitory_data 
 * Run the front-end with yarn
 * Run the back-end with yarn
 * Check UI with http://localhost:5173/
 
-student interface
+student registration form
 
-![image](https://github.com/user-attachments/assets/37bbbea3-8de4-4e4b-86e7-3e1e63d325fb)
+![image](https://github.com/user-attachments/assets/16146a5c-db93-4d98-8872-9d2230de7a19)
 
-manager interface
 
-![image](https://github.com/user-attachments/assets/b32bc287-a861-4b69-9136-f7fd51b8eb04)
+admin interface
+
+![image](https://github.com/user-attachments/assets/d87e6317-f58e-4bad-b953-179265a6b1a8)
+![image](https://github.com/user-attachments/assets/5c96ec84-7a10-4d0f-8111-431aa34bc730)
+
 
 ### 5 Result
 Some actual images
 
-![image](https://github.com/user-attachments/assets/ef74003b-f28f-4232-b900-45ceb8ef839f)
+![image](https://github.com/user-attachments/assets/057ad321-9d21-432b-81f1-8b8f4a0770c7)
 
-![image](https://github.com/user-attachments/assets/0d12c6af-bb9d-408e-8825-445c3370cf58)
+![image](https://github.com/user-attachments/assets/dacf84da-3e55-4d17-aa15-65bcbd262144)
 
-![image](https://github.com/user-attachments/assets/a5e59e10-58b1-4a26-a3cc-2f3904b33acb)
+![image](https://github.com/user-attachments/assets/9379427d-e4ea-4fc4-968c-e365650759cb)
 
-![image](https://github.com/user-attachments/assets/b61202df-2049-4dfe-b512-48647a6c53c5)
+![image](https://github.com/user-attachments/assets/d3d0be23-b80a-4d21-99d2-19c6d7d59d1a)
 
-
+![image](https://github.com/user-attachments/assets/c223ecf1-a2c9-43a9-88eb-ebf350a530b9)
